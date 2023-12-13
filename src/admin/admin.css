@@ -1,0 +1,457 @@
+.admin {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/150/small/dark-background-abstract-with-light-effect-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    /* Hide the scrollbars */
+    position: relative;
+    
+
+}
+
+.adminContent .tableContent {
+    margin-top: 1.25rem;
+    align-items: center;
+    border-width: 2px;
+    color: #ffffff;
+    /* background-color: #1E3A8A; */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    color: 16px;
+    height: 500px;
+
+}
+
+.adminContent .tableContent .table {
+    width: 100%;
+    text-align: center;
+    table-layout: auto;
+    color: white;
+}
+.adminContent .tableContent a{
+    display: contents;
+}
+.admin .adminHeader {
+    width: 90%;
+    /* margin-top: 10px; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    box-shadow: 0 10px 15px -3px rgba(49, 149, 220, 0.896), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.admin .adminHeader h1 {
+    color: white;
+    margin-left: 27%;
+}
+
+.admin .adminHeader p {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.admin .sidebar {
+    position: absolute;
+    top: 3.5rem;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 68%;
+    /* margin-left: 82%; */
+    /* float: left; */
+    justify-content: left;
+    background-color: rgb(50, 93, 172);
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    width: 15rem;
+    /* margin-right: 40px; */
+    /* position: absolute; */
+    /* margin-top: 5px; */
+    /* border-radius: 30px; */
+    color: aliceblue;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    z-index: 1;
+}
+
+.admin .sidebar>p {
+    margin: 0 10px 0 5px;
+}
+.admin .sidebar .sidebar-menu{
+    padding: 20px;
+}
+
+.admin .mainContent {
+    width: 90%;
+    display: flex;
+    /* background-color: gray; */
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+/* admin content */
+.adminContent {
+    overflow-y: hidden;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/150/small/dark-background-abstract-with-light-effect-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    padding-bottom: 50px;
+    /* margin-top: 30px; */
+    overflow: scroll;
+} 
+
+.adminContent::-webkit-scrollbar {
+    width: 0;
+}
+
+.adminContent .div1 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminContent .div2 {
+    width: 100%;
+    justify-items: center;
+
+
+}
+
+.adminContent .div2 h1 {
+    margin-top: 0.75rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #3B82F6;
+}
+
+.adminContent .innerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+/* admin content */
+
+
+
+/* all users */
+.all {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.userTemplate {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 20px;
+
+}
+
+.userTemplate h2 {
+    border-bottom: 2px solid #43b0e4;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: antiquewhite;
+}
+
+.userTemplate .user {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.userTemplate .user .btn {
+    display: block;
+    margin: 20px 0;
+    width: 144px;
+    height: 42px;
+    border: none;
+    background-color: #00a8ff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.userTemplate .user .btn4:hover {
+    transform: rotateY(-15deg);
+    box-shadow: 15px 0 15px #00a8ff;
+}
+
+.userTemplate .user .btn3:hover {
+    transform: rotateY(15deg);
+    box-shadow: -15px 0 15px #00a8ff;
+}
+
+.userTemplate .user div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.userTemplate .content {
+    padding: 20px;
+    margin: 20px;
+}
+
+.all .allInner {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.all .allInner .search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.all .allInner .input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.all .allInner .input-search::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.all .allInner .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.all .allInner .btn-search:focus~.input-search {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.all .allInner .input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.all .box {
+
+    position: relative;
+    margin-top: 20px;
+    top: 43%;
+    /* left: 30%; */
+    transform: translate(-50%, -50%);
+}
+
+.all .box select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+
+
+.all .box select option {
+    padding: 30px;
+}
+
+.userTemplate .show {
+    display: block;
+}
+
+.userTemplate .hide {
+    display: none;
+}
+
+/* all users */
+
+
+/* courses */
+.course-page {
+    width: 100%;
+    ;
+}
+
+.course-page .main-course {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 13px 8px rgba(34, 92, 227, 1);
+}
+
+.course-page .main-course .buttons , .delButtons {
+    margin: 10px 10px;
+    padding: 10px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.course-page .main-course .buttons button  {
+    
+    border: 1px solid white;
+    /* margin: 10px 63px; */
+    padding: 10px 39px;
+    border-radius: 10px;
+    background-color: #22a6b3;
+    /* margin-right: 150px; */
+}
+.course-page .main-course .delButtons button  {
+    
+    border: 1px solid white;
+    /* margin: 10px 63px; */
+    padding: 10px 39px;
+    border-radius: 10px;
+    background-color: #e04d4d;
+    /* margin-right: 150px; */
+}
+.course-page .main-course .buttons #deleteVideo{
+    background-color: #e75454;
+}
+
+.course-page .main-course .body-page {
+    margin: 10px 10px;
+    padding: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+}
+
+.main-course .body-page .left-content {
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 500px;
+
+}
+
+.main-course .body-page .right-content {
+
+    width: 70%;
+    height: fit-content;
+}
+
+.left-content .sample-card {
+    border: 1px solid;
+    width: 94%;
+    height: fit-content;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sample-card img {
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+.sample-card .pre-update {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sample-card .pre-update p {
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background-color: #22a6b3;
+}
+
+.right-content video {
+    width: 99%;
+    height: fit-content;
+}
+
+.main-course .dropdown {
+    display: flex;
+    margin-left: 10px;
+}

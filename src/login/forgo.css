@@ -1,0 +1,242 @@
+.forgotPass{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.forgotPass > form{
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -1px 8px 38px -2px rgba(50,48,48,0.82);
+}
+.forgotPass label{
+  color: black;
+  
+}
+.forgotPass input{
+  margin-left: 20px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+.forgotPass h4{
+  text-align: center;
+}
+.forgotPass button{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+}
+.forgotPass .back_button{
+  background-color: #c2d4fb;
+  border-radius: 100px;
+  box-shadow: rgb(44 153 187 / 20%) 0 -25px 18px -14px inset, rgb(44 140 187 / 15%) 0 1px 2px, rgb(44 179 187 / 15%) 0 2px 4px, rgb(44 133 187 / 15%) 0 4px 8px, rgb(44 166 187 / 15%) 0 8px 16px, rgb(44 179 187 / 15%) 0 16px 32px;
+  color: #002d80;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+}
+.forgotPass .back_button:hover {
+  box-shadow: rgba(44, 142, 187, 0.35) 0 -25px 18px -14px inset,rgba(44, 101, 187, 0.25) 0 1px 2px,rgba(44, 82, 187, 0.25) 0 2px 4px,rgba(44, 106, 187, 0.25) 0 4px 8px,rgba(44, 106, 187, 0.25) 0 8px 16px,rgba(44, 123, 187, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.forgotPass button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.forgotPass .project_mail{
+  margin: 0 5rem;
+}
+/* .mainContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 20px;
+  }
+  .uploadOne{
+   width: 500px;
+   height: fit-content;
+   border: 2px solid black;
+  }
+  .uploadTwo{
+    width: 700px;
+    height: 100vh;
+    border: 2px solid black;
+  }
+  
+  .showblock{
+    display: block;
+  }
+  .hideblock{
+    display: none;
+  }
+
+
+.row h2{
+    color: rgb(0, 0, 0);
+      font-family: fantasy;
+      letter-spacing: 1px;
+      text-decoration-style: dotted;
+      text-decoration-line: underline;
+      text-decoration-color: cornflowerblue;
+  }
+  .crls1{
+    position: relative;
+    left: 54%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 150px;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #33ff3a 0%, #ff99cc 100%);
+  }
+  .crls2{
+    position: relative;
+    left: 55%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 150px;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #33ff3a 0%, #3011bc 100%);
+  }
+  .crls3{
+    position: relative;
+    right: 46%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 150px;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #33ff3a 0%, #001d02 100%);
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  
+   
+  }
+  .project{
+    border-radius: 10px;
+    padding: 70px;
+    border: 1px solid green;
+    width: 25%;
+    height: 345px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #fff;
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+  }
+  .project-otp{
+    border-radius: 10px;
+    padding: 70px;
+    border: 1px solid rgb(235, 16, 140);
+    width: 25%;
+    height: 345px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+  }
+  .project-mail{
+    border-radius: 10px;
+    padding: 70px;
+    border: 1px solid #3011bc;
+    width: 25%;
+    height: 345px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+  }
+  .circle{
+    margin-top: 50px;
+  }
+  .OTP1{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(to bottom, #00de09 0%, #000000bf 100%);
+    border: none;
+    color: #020410;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    margin-top: 100px;
+  }
+  .OTP2{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(to bottom, #00de09 0%, #e91e6391  100%);
+    border: none;
+    color: #020410;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    margin-top: 100px;
+  }
+  .OTP3{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(to bottom, #00de09 0%, #2409a2bf 100%);
+    border: none;
+    color: #020410;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    margin-top: 0px;
+  }
+  .project label {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: math;
+    color: #484343;
+  }
+  .project-otp label{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: math;
+    color: #484343;
+  }
+  .project-mail label{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: math;
+    color: #484343;
+  } */
+  

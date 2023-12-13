@@ -1,0 +1,5 @@
+export {HRtraining} from "./HRtraining"
+export {TrainerProfile} from "./TrainerProfile"
+export {CoreMembers} from "./CoreMembers"
+export {ITteam} from "./ITteam"
+export {Blogs} from "./Blogs"

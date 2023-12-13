@@ -1,0 +1,577 @@
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+
+    .row_nav {
+        background: linear-gradient(135deg, #035547 25%, #b17f08)  !important;
+        height: 70px  !important;
+        display: grid  !important;
+        padding-right: 5px  !important;
+        padding-left: 5px  !important;
+    }
+
+    .row_nav img {
+        height: 45px  !important;
+        margin-top: 12px  !important;
+        margin-bottom: 12px !important;
+        padding-left: 0px  !important;
+    }
+
+    .widget_media {
+        width: auto  !important;
+        float: right  !important;
+        margin-top: -65px  !important;
+    }
+
+    .widget_media ul {
+        display: inline-flex  !important;
+        gap: 2px  !important;
+    }
+
+    .widget_media ul li a {
+        width: 30px  !important;
+        height: 30px  !important;
+        background: rgba(0, 0, 0, .5)  !important;
+        bottom: -14px  !important;
+    }
+
+    .widget_media ul li img {
+        height: 25px  !important;
+    }
+
+    .fom_header form {
+        display: inline-block  !important;
+        border: 1px solid gray  !important;
+        padding: 0px  !important;
+        font-weight: 600  !important;
+        padding-bottom: 0px  !important;
+        margin-top: 0px  !important;
+    }
+
+    .banner-inner>img {
+        width: 95%  !important;
+    }
+
+    .fom_header h2 {
+        margin-top: 35px  !important;
+        margin-left: 15px  !important;
+        margin-bottom: 10px  !important;
+    }
+
+    .fom_header input {
+        margin-bottom: 32px  !important;
+        margin-top: 16px  !important;
+        margin-left: 16px  !important;
+    }
+
+    .fom_header label {
+        margin-bottom: 0px  !important;
+    }
+
+    .tag_row {
+        margin-left: 42px  !important;
+        margin-top: -27px  !important;
+    }
+
+    .btn-success {
+        margin-left: 65px  !important;
+    }
+
+    .services {
+        padding-top: 25px  !important;
+    }
+
+    .align-title h3 {
+        font-size: 25px  !important;
+        line-height: 35px  !important;
+        margin-top: 10px  !important;
+        margin-bottom: 10px  !important;
+    }
+
+    .services {
+        padding-bottom: 35px  !important;
+    }
+
+    .service-container {
+        position: relative  !important;
+        background: #ffffff  !important;
+        padding: 0px  !important;
+        display: block  !important;
+        justify-content: center  !important;
+        align-items: center  !important;
+        transition: 0.3s  !important;
+        border-radius: 20px  !important;
+        margin-bottom: 20px  !important;
+        width: 100%  !important;
+    }
+
+    .service-icon p {
+        font-size: 12px  !important;
+        line-height: 25px  !important;
+    }
+
+    .service-container-inner h5 {
+        margin-top: -3px  !important;
+        margin-bottom: 3px  !important;
+        font-size: 20px  !important;
+    }
+
+    .home-three-banner {
+        height: 930px  !important;
+    }
+
+    .banner-inner h4 {
+        margin-bottom: 35px  !important;
+        margin-top: -48px  !important;
+        margin-left: 64px  !important;
+    }
+
+    .banner-inner>img {
+        margin-top: 1rem  !important;
+        margin-bottom: 0rem  !important;
+    }
+
+    .content {
+        margin: 30px 10px 15px  !important;
+        padding: 0  !important;
+    }
+
+    .row_home {
+        flex-direction: column  !important;
+        justify-content: space-between  !important;
+        margin: 0  !important;
+        padding: 0  !important;
+        justify-content: center  !important;
+        align-items: center  !important;
+    }
+
+    .js {
+        height: 940px  !important;
+    }
+
+    .home-three-banner {
+        height: auto  !important;
+    }
+
+    .colmd2 {
+        padding-right: 0px  !important;
+        padding-left: 0px  !important;
+    }
+
+    .colmd2 img {
+        height: 45px  !important;
+        margin-top: 8px  !important;
+        padding-left: 10px  !important;
+    }
+}
+
+@media only screen and (max-width: 426px) and (min-width: 375px) {
+    #mar_scroll{
+        height: fit-content !important;
+        margin-top: 20px !important;
+    }
+    .row_footer{
+        display: block  !important;
+        height: 113px  !important;
+    }
+    .row_footer p{
+        font-size: 15px  !important;
+    }#btn-back-to-top{
+       
+        margin-bottom: 20px  !important;
+    }
+    .formtagg {
+        height: 110px  !important;
+        width: 120px  !important;
+        margin-left: 64%  !important;
+        margin-top: -1%  !important;
+    }
+    .row_nav {
+        background: linear-gradient(135deg, #035547 25%, #b17f08)  !important;
+        height: 70px  !important;
+        display: grid  !important;
+        padding-right: 5px  !important;
+        padding-left: 5px  !important;
+    }
+
+    .row_nav img {
+        height: 45px  !important;
+        margin-top: 12px  !important;
+        margin-bottom: 12px !important;
+        padding-left: 0px  !important;
+    }
+
+    /* .text_nav {
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        font-family: system-ui !important;
+        color: #fff !important;
+        position: relative !important;
+        bottom: 30px !important;
+        margin-left: 48px !important;
+    }
+
+    .text_nav span {
+        display: flex !important;
+        margin-left: 2px !important;
+    } */
+
+    .widget_media {
+        width: auto  !important;
+        float: right  !important;
+        margin-top: -65px  !important;
+    }
+
+    .widget_media ul {
+        display: inline-flex  !important;
+        gap: 2px  !important;
+    }
+
+    .widget_media ul li a {
+        width: 30px  !important;
+        height: 30px  !important;
+        background: rgba(0, 0, 0, .5)  !important;
+        bottom: -14px  !important;
+    }
+
+    .widget_media ul li img {
+        height: 25px  !important;
+    }
+
+    .fom_header form {
+        display: inline-block  !important;
+        border: 1px solid gray  !important;
+        padding: 0px  !important;
+        font-weight: 600  !important;
+        padding-bottom: 0px  !important;
+        margin-top: 0px  !important;
+    }
+
+    .banner-inner>img {
+        width: 95%  !important;
+    }
+
+    .fom_header h2 {
+        margin-top: 35px  !important;
+        margin-left: 15px  !important;
+        margin-bottom: 10px  !important;
+    }
+
+    .fom_header input {
+        margin-bottom: 32px !important;
+        margin-top: 16px !important;
+        margin-left: 16px !important;
+    }
+
+    .fom_header label {
+        margin-bottom: 0px !important;
+    }
+
+    .tag_row {
+        margin-left: 42px !important;
+        margin-top: -27px !important;
+    }
+
+    .btn-success {
+        margin-left: 65px !important;
+    }
+
+    .services {
+        padding-top: 25px !important;
+    }
+
+    .align-title h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .services {
+        padding-bottom: 35px  !important;
+    }
+
+    .service-container {
+        position: relative !important;
+        background: #ffffff !important;
+        padding: 0px !important;
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        transition: 0.3s !important;
+        border-radius: 20px !important;
+        margin-bottom: 20px !important;
+        width: 100% !important;
+    }
+
+    .service-icon p {
+        font-size: 12px !important;
+        line-height: 25px !important;
+    }
+
+    .service-container-inner h5 {
+        margin-top: -3px !important;
+        margin-bottom: 3px !important;
+        font-size: 20px !important;
+    }
+
+   
+
+    .banner-inner h4 {
+        margin-bottom: 35px !important;
+        margin-top: -48px !important;
+        margin-left: 64px !important;
+    }
+
+    .banner-inner>img {
+        margin-top: 1rem  !important;
+        margin-bottom: 0rem  !important;
+    }
+
+    .content {
+        margin: 30px 10px 15px  !important;
+        padding: 0  !important;
+    }
+
+    .row_home {
+        flex-direction: column  !important;
+        justify-content: space-between  !important;
+        margin: 0  !important;
+        padding: 0  !important;
+        justify-content: center  !important;
+        align-items: center  !important;
+    }
+
+    .js {
+        height: 940px  !important;
+    }
+
+    .home-three-banner {
+        height: auto  !important;
+    }
+
+    .colmd2 {
+        padding-right: 0px  !important;
+        padding-left: 0px !important;
+    }
+
+    .colmd2 img {
+        height: 45px  !important;
+        margin-top: 8px !important;
+        padding-left: 10px !important;
+    }
+
+    .team-three-top-wrapper {
+        margin-left: 27px  !important;
+    }
+
+    .team-three-top-wrapper p {
+        text-align: inherit  !important;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px)  {
+    #mar_srcoll{
+        height: fit-content !important;
+        margin-top: 30px !important;
+    }
+    .row_footer{
+        display: block  !important;
+        height: 113px  !important;
+    }
+    .row_footer p{
+        font-size: 15px  !important;
+    }
+    #btn-back-to-top{
+     
+        margin-bottom: 20px  !important;
+    }
+    .formtagg {
+        height: 110px  !important;
+        width: 120px  !important;
+        margin-left: 60%  !important;
+        margin-top: -1%  !important;
+    }
+    .row_nav {
+        background: linear-gradient(135deg, #035547 25%, #b17f08)  !important;
+        height: 70px  !important;
+        display: grid  !important;
+        padding-right: 5px  !important;
+        padding-left: 5px  !important;
+    }
+
+    .row_nav img {
+        height: 45px  !important;
+        margin-top: 12px  !important;
+        margin-bottom: 12px !important;
+        padding-left: 0px  !important;
+    }
+
+    /* .text_nav {
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        font-family: system-ui !important;
+        color: #fff !important;
+        position: relative !important;
+        bottom: 30px !important;
+        margin-left: 48px !important;
+    }
+
+    .text_nav span {
+        display: flex !important;
+        margin-left: 2px !important;
+    } */
+
+    .widget_media {
+        width: auto  !important;
+        float: right  !important;
+        margin-top: -65px  !important;
+    }
+
+    .widget_media ul {
+        display: inline-flex  !important;
+        gap: 2px  !important;
+    }
+
+    .widget_media ul li a {
+        width: 30px  !important;
+        height: 30px  !important;
+        background: rgba(0, 0, 0, .5)  !important;
+        bottom: -14px  !important;
+    }
+
+    .widget_media ul li img {
+        height: 25px  !important;
+    }
+
+    .fom_header form {
+        display: inline-block  !important;
+        border: 1px solid gray  !important;
+        padding: 0px  !important;
+        font-weight: 600  !important;
+        padding-bottom: 0px  !important;
+        margin-top: 0px  !important;
+    }
+
+    .banner-inner>img {
+        width: 95%  !important;
+    }
+
+    .fom_header h2 {
+        margin-top: 35px  !important;
+        margin-left: 15px  !important;
+        margin-bottom: 10px  !important;
+    }
+
+    .fom_header input {
+        margin-bottom: 32px !important;
+        margin-top: 16px !important;
+        margin-left: 16px !important;
+    }
+
+    .fom_header label {
+        margin-bottom: 0px !important;
+    }
+
+    .tag_row {
+        margin-left: 42px !important;
+        margin-top: -27px !important;
+    }
+
+    .btn-success {
+        margin-left: 65px  !important;
+    }
+
+    .services {
+        padding-top: 25px !important;
+    }
+
+    .align-title h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .services {
+        padding-bottom: 35px  !important;
+    }
+
+    .service-container {
+        position: relative !important;
+        background: #ffffff !important;
+        padding: 0px !important;
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        transition: 0.3s !important;
+        border-radius: 20px !important;
+        margin-bottom: 20px !important;
+        width: 100% !important;
+    }
+
+    .service-icon p {
+        font-size: 12px !important;
+        line-height: 25px !important;
+    }
+
+    .service-container-inner h5 {
+        margin-top: -3px !important;
+        margin-bottom: 3px !important;
+        font-size: 20px !important;
+    }
+
+    .home-three-banner {
+        height: 930px !important;
+    }
+
+    .banner-inner h4 {
+        margin-bottom: 35px  !important;
+        margin-top: -48px  !important;
+        margin-left: 64px  !important;
+    }
+
+    .banner-inner>img {
+        margin-top: 1rem  !important;
+        margin-bottom: 0rem  !important;
+    }
+
+    .content {
+        margin: 30px 10px 15px  !important;
+        padding: 0  !important;
+    }
+
+    .row_home {
+        flex-direction: column  !important;
+        justify-content: space-between  !important;
+        margin: 0  !important;
+        padding: 0  !important;
+        justify-content: center  !important;
+        align-items: center  !important;
+    }
+
+    .js {
+        height: 940px  !important;
+    }
+
+    .home-three-banner {
+        height: auto  !important;
+    }
+
+    .colmd2 {
+        padding-right: 0px  !important;
+        padding-left: 0px !important;
+    }
+
+    .colmd2 img {
+        height: 45px  !important;
+        margin-top: 8px !important;
+        padding-left: 10px !important;
+    }
+
+    .team-three-top-wrapper {
+        margin-left: 27px  !important;
+    }
+
+    .team-three-top-wrapper p {
+        text-align: inherit  !important;
+    }
+}

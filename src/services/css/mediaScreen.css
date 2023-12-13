@@ -1,0 +1,132 @@
+@media only screen and (max-width: 426px) and (min-width: 375px) {
+    .containerCoun .form {
+        width: 46vh;
+    }
+    .containerCoun .gender_radio input{
+        margin-left: 7px;
+    }
+    .containerCoun .project {
+        width: inherit;
+    }
+
+    .containerCoun .project input {
+        width: 40vh;
+        height: 36px
+    }
+
+    .containerCoun .gender_radio {
+        flex-flow: column wrap;
+        width: inherit;
+    }
+
+    .containerCoun .gender_radio label {
+        justify-content: space-between;
+    }
+
+    .containerCoun .experience_level {
+        flex-flow: column wrap;
+        width: inherit;
+    }
+
+    .containerCoun .experience_level label {
+        justify-content: space-between;
+        
+    }
+
+    #ExpLevel {
+        width: 20vh;
+
+        height: 36px;
+    }
+    #YrsOfExp{
+        width: 20vh;
+        height: 35px;
+    }
+    .containerCoun .detail_project {
+        margin-top: 13px;
+    }
+    .containerCoun .payment_for{
+        flex-flow: column wrap;
+        width: 47vh;
+        height: 32vh;
+    }
+    .containerCoun .payment_for .heading_des input {
+        margin: 0;
+    }
+
+    .containerCoun .submit {
+        margin-left: 20vh;
+        width: 174px;
+        height: 41px;
+    }
+}
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+    .containerCoun {
+        padding: 12px;
+
+    }
+    .containerCoun .form {
+        width: 44vh;
+    }
+
+    .containerCoun .project {
+        width: inherit;
+    }
+
+    .containerCoun .project input {
+        width: 31vh;
+        height: 36px
+    }
+    #HighQual{
+        width: 26vh;
+    }
+
+    .containerCoun .gender_radio {
+        flex-flow: column wrap;
+        width: inherit;
+    }
+
+    .containerCoun .gender_radio label {
+        justify-content: space-between;
+    }
+    .containerCoun .gender_radio input{
+        margin-left: 2px;
+    margin-right: 2px;
+    }
+    .containerCoun .experience_level {
+        flex-flow: column wrap;
+        width: inherit;
+    }
+
+    .containerCoun .experience_level label {
+        justify-content: space-between;
+        
+    }
+
+    #ExpLevel {
+        width: 19vh;
+        height: 36px;
+    }
+    #YrsOfExp{
+        width: 19vh;
+        height: 35px;
+    }
+    .containerCoun .detail_project {
+        margin-top: 13px;
+    }
+    .containerCoun .payment_for{
+        flex-flow: column wrap;
+        width: 45vh;
+        height: 32vh;
+    }
+    .containerCoun .payment_for .heading_des input {
+        margin: 0;
+    }
+    
+    .containerCoun .submit {
+        margin-left: 16vh;
+        width: 174px;
+        height: 41px;
+    }
+}

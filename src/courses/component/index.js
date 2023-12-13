@@ -1,0 +1,5 @@
+export {CourcesAbout} from "./CourcesAbout"
+export {CourcesForm} from "./CourcesForm"
+export {CourcesJavascript} from "./CourcesJavascript"
+export {CourcesAbout_Instructor} from "./CourcesAbout_Instructor"
+export {DayaAbout} from "./DayaAbout"
